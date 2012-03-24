@@ -1,6 +1,6 @@
 %define name carbon
-%define version 0.9.7
-%define unmangled_version 0.9.7
+%define version 0.9.9
+%define unmangled_version 0.9.9
 %define release 1
 
 Summary: Backend data caching and persistence daemon for Graphite
@@ -15,6 +15,7 @@ Prefix: %{_prefix}
 BuildArch: noarch
 Vendor: Chris Davis <chrismd@gmail.com>
 Url: https://launchpad.net/graphite
+Requires: python-twisted
 
 %description
 UNKNOWN
